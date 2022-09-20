@@ -1,0 +1,57 @@
+*, body {
+    font-family: 'Sofia', sans-serif;
+  }
+  body {
+    background-color: rgb(228, 247, 255);
+    align-items: center;
+  }
+  .app{
+    max-width: 960px;
+    min-height: 600px;
+    background-color: rgb(200, 200, 200);
+    padding: 30px;
+    margin: 30px auto;
+    align-items: center;
+    position: relative;
+    box-sizing: border-box;
+    border: solid 5px;
+  }
+  
+  .todo-title {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 5px;
+    width:150px;
+    margin:auto;
+    color: #ec710cff;
+    border: solid 5px;
+  }
+  .todo-subtitle {
+    text-align: center;
+    padding: 5px;
+    width:150px;
+    margin:10px auto;
+    color: #292929;
+    
+  }
+  .todo-input {
+    margin: 20px auto;
+    text-align: center;
+    padding: 15px;
+    width:70%;
+  }
+  .submit {
+    margin: 20px auto;
+    text-align: center;
+    padding: 15px;
+    width:25%;
+    background-color: rgb(197, 94, 10);
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    float: right;
+  }
+  .todo-output {
+    margin: 10px 50px;
+    font-size: 24px;
+  }
